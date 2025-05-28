@@ -357,6 +357,7 @@ header .card .icon i{
     header .card {
         right: 50%;
         transform: translatex(-20%);
+        
     }
    header .text{
    padding: 0 ;
@@ -364,23 +365,22 @@ header .card .icon i{
 header .text h1{
     font-size: 36px;}
 header .text div {
-    
     align-items: flex-start;
     padding: 0;
     margin: 0;
+    flex-direction: column;
    
 }
 header .text div .btn{
      padding: 15px 30px;
 }
-header .card .img{
-    width: 350px;
-   
+header{
+    gap: 30px;
+
+
 }
 
 }
-
-
 
 /*  end header */
 
