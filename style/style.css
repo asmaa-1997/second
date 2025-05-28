@@ -370,7 +370,13 @@ header .text div {
     margin: 0;
    
 }
-
+header .text div .btn{
+     padding: 15px 30px;
+}
+header .card .img{
+    width: 350px;
+   
+}
 
 }
 
@@ -1040,10 +1046,11 @@ display: flex;
         gap: 16px;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
     }
     .sec4  .title a{
        margin: 5px 0; 
-       white-space: nowrap;
+       
        display: inline-block;
        
     }
