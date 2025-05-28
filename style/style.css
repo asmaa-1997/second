@@ -358,6 +358,20 @@ header .card .icon i{
         right: 50%;
         transform: translatex(-20%);
     }
+   header .text{
+   padding: 0 ;
+}
+header .text h1{
+    font-size: 36px;}
+header .text div {
+    
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+   
+}
+
+
 }
 
 
@@ -663,6 +677,9 @@ header .card .icon i{
 @media (max-width: 500px){
     .cards-container {
         gap: 45px; 
+    }
+    .sec2 .card {
+        min-width: 300px;
     }
 }
 
@@ -1017,7 +1034,55 @@ display: flex;
     .sec4 .detail .det{
         gap: 30px;
     }
+    .sec4 .title .aaa{
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec4  .title a{
+       margin: 5px 0; 
+       white-space: nowrap;
+       display: inline-block;
+       
+    }
+    
+
 }
+
+@media (max-width: 500px){
+        .sec4  .title a{
+            font-size: 14px;
+            align-self: center;
+            text-align: center;
+        }
+
+    .sec4 .card_Market{
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+
+    }
+    .sec4 .card_Market hr{
+    width: 350px;
+    
+ }
+ .sec4 .detail .det .text  {
+    padding: 0 8px;
+    
+}
+.sec4 .detail .det .text  div:nth-of-type(1) b{
+    font-size: 16px;
+}
+.sec4 .detail .det .text  div:nth-of-type(2) span{
+ font-size: 15px;
+
+}
+.sec4 .detail .order button{
+    margin: 20px 5%;
+}
+    }
 /* end sec4 */
 
 footer{
